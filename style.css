@@ -1,0 +1,34 @@
+.baggrundsbillede {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+#produkter {
+    background-color: #f4edea;
+}
+
+
+.display-4 {
+    font-family: 'Sacramento', cursive;
+    color: #89986e;
+
+}
+
+#afslutning {
+
+    background-color: #f4edea;
+}
+
+.p {
+    font-family: brandon-grotesque, sans-serif;
+
+    font-weight: 100;
+
+    font-style: normal;
+
+
+}
