@@ -16,103 +16,104 @@
 
 
 .container {
+  /*
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
-
+*/
 }
 
 
 #produkter {
-    background-color: #f4edea;
+  background-color: #f4edea;
 
 }
 
 .carousel-caption {
-    background-color: rgba(190, 190, 190, 0.53);
-    border-radius: 25px;
+  background-color: rgba(190, 190, 190, 0.53);
+  border-radius: 25px;
 }
 
 
 .display-3 {
-    font-family: 'Sacramento', cursive;
-    color: #89986e;
+  font-family: 'Sacramento', cursive;
+  color: #89986e;
 }
 
 
 .display-4 {
-    font-family: noto-serif-extracondensed, serif;
-    font-style: normal;
-    /*letter-spacing: 1px;*/
-    /*line-height: 1.6;*/
-    color: #778362;
+  font-family: noto-serif-extracondensed, serif;
+  font-style: normal;
+  /*letter-spacing: 1px;*/
+  /*line-height: 1.6;*/
+  color: #778362;
 }
 
 #afslutning {
-    background-color: #f4edea;
+  background-color: #f4edea;
 }
 
 p {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 100;
-    font-style: normal;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 section {}
 
 section:nth-child(0) {
-    background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 section:nth-child(1) {}
 
 section:nth-child(2) {
-    background-color: rgba(255, 255, 0, 0.3);
+  background-color: rgba(255, 255, 0, 0.3);
 }
 
 
 section:nth-child(4) {
-    background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 section:nth-child(6) {
-    background-color: rgba(255, 165, 0, 0.3);
+  background-color: rgba(255, 165, 0, 0.3);
 }
 
 section:nth-child(7) {
-    background-color: rgba(255, 192, 203, 0.3);
+  background-color: rgba(255, 192, 203, 0.3);
 }
 
 section:nth-child(8) {
-    background-color: rgba(128, 128, 128, 0.3);
+  background-color: rgba(128, 128, 128, 0.3);
 }
 
 section:nth-child(9) {
-    background-color: rgba(0, 0, 139, 0.3);
+  background-color: rgba(0, 0, 139, 0.3);
 }
 
 section:nth-child(10) {
-    background-color: rgba(0, 128, 0, 0.3);
+  background-color: rgba(0, 128, 0, 0.3);
 }
 
 .parallax {
-    position: relative;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: absolute;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
+
 .parallax-1 {
-    background-image: url("img/baggrundsbillede-01.png");
+  background-image: url("img/baggrundsbillede-01.png");
 }
 
 .parallax-2 {
-    background-image: url("img/baggrundsbillede-01.png");
+  background-image: url("img/baggrundsbillede-01.png");
 }
 
 .parallax-3 {
-    background-image: url("img/baggrundsbillede-01.png");
+  background-image: url("img/baggrundsbillede-01.png");
 }
 
 /*.scrollreveal {
@@ -146,12 +147,12 @@ section:nth-child(10) {
 
 /*  Will be added when item is fully visible, and removed when it's fully out of viewport */
 .js-reveal {
-    opacity: 1;
+  opacity: 1;
 }
 
 /*  Will be added the first time item is fully visible  */
 .js-revealed {
-    background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /*# sourceMappingURL=style.css.map */
@@ -162,22 +163,22 @@ section:nth-child(10) {
 /*@media (min-width: 576px) {*/
 .logo {
 
-    width: 30%;
+  width: 30%;
 }
 
 /*}*/
 
 @media (min-width: 576px) {
-    .logo {
-        width: 15%;
-    }
+  .logo {
+    width: 15%;
+  }
 }
 
 
 @media (min-width: 992px) {
-    .logo {
+  .logo {
 
-        width: 15%;
-    }
+    width: 15%;
+  }
 
 }
